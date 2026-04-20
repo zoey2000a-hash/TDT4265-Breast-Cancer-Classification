@@ -1,0 +1,12 @@
+# 忽略数据和模型缓存
+data/
+runs/
+__pycache__/
+*.nii.gz
+*.pt
+*.parquet
+
+# 忽略生成的预测结果（如果老师只要求代码）
+predictions.csv
+output.txt
+result.txt
